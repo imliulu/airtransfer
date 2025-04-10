@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"gshare/middleware"
-	"gshare/services"
 	"net/http"
 	"sync"
 	"time"
+
+	"github.com/imliulu/airtransfer/middleware"
+	"github.com/imliulu/airtransfer/services"
 
 	"github.com/gin-gonic/gin"
 )
