@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: 'IndexPage',
+  name: 'RoomsPage',
   data() {
     return {
       form: {
@@ -49,7 +49,7 @@ export default {
           this.$message.success(response.data.message)
           this.form.roomID = ''
           this.form.password = ''
-          this.$router.push({ path: `/share/${roomID}`, query: { password: password } })
+          this.$router.push({ path: `/transfer/${roomID}`, query: { password: password } })
         })
         .catch(error => {
           this.$message.error('创建房间失败: ' + error.message)

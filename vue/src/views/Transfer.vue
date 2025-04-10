@@ -64,7 +64,7 @@
 
 <script>
 export default {
-  name: 'SharePage',
+  name: 'TransferPage',
   data() {
     return {
       form: {

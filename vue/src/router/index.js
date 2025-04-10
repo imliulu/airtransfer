@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/views/Index.vue'
-import Share from '@/views/Share.vue'
+import Rooms from '@/views/Rooms.vue'
+import Transfer from '@/views/Transfer.vue'
 import NotFound from '@/views/NotFound.vue'
 
 Vue.use(Router)
@@ -11,13 +11,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Index',
-      component: Index
+      name: 'Rooms',
+      component: Rooms
     },
     {
-      path: '/share/:roomID',
-      name: 'Share',
-      component: Share
+      path: '/transfer/:roomID',
+      name: 'Transfer',
+      component: Transfer
     },
     {
       path: '*',
