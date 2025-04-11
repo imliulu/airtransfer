@@ -48,7 +48,7 @@
             </el-upload>
           </el-form-item>
           <el-form-item label="文件列表">
-            <div id="fileList" class="file-list">
+            <div id="fileList" class="file-list block">
               <div v-for="file in files" :key="file.name" class="file-item">
                 <div>{{ file.name }}</div>
                 <img v-if="file.isImage" :src="file.url" class="file-preview" @click="previewImage(file.url)" />

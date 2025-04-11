@@ -76,7 +76,7 @@ export default {
               this.$message.error(response.data.error)
             } else {
               this.$message.success(response.data.message)
-              this.$router.push({ path: `/share/${roomID}`, query: { password: value } })
+              this.$router.push({ path: `/transfer/${roomID}`, query: { password: value } })
             }
           })
           .catch(error => {
