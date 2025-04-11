@@ -10,6 +10,6 @@
 
   
 ## 软件截图
-![房间管理]/images/房间管理.png
-![剪切板管理]/images/剪切板共享.png
-![文件共享]/images/文件共享.png
+![房间管理](/images/房间管理.png)
+![剪切板管理](/images/剪切板共享.png)
+![文件共享](/images/文件共享.png)
